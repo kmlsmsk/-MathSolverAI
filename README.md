@@ -32,9 +32,6 @@ MathSolverAI/
 ├── icon.png        # Uygulama ikonu
 └── README.md       # Proje dokümantasyonu
 
-
-# MathSolverAI Chrome Eklentisi
-
 ## 🛠️ Kurulum
 
 Bu eklenti açık kaynaklıdır ve **"Geliştirici Modu"** ile yüklenir:
