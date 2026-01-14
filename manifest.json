@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "MathSolverAI",
+  "version": "15.0",
+  "description": "Soruların ekran görüntülerini yapay zeka ile analiz eden ve çözen uzman çözüm asistanı.",
+  "permissions": [
+    "storage",
+    "clipboardRead"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+    "default_title": "MathSolver AI",
+    "default_icon": "icon.png"
+  }
+}
