@@ -33,44 +33,36 @@ MathSolverAI/
 └── README.md       # Proje dokümantasyonu
 
 
-🛠️ Kurulum
+# MathSolverAI Chrome Eklentisi
 
-Bu eklenti açık kaynaklıdır ve "Geliştirici Modu" ile yüklenir:
+## 🛠️ Kurulum
 
-    Bu repoyu bilgisayarınıza indirin (git clone veya ZIP olarak).
+Bu eklenti açık kaynaklıdır ve **"Geliştirici Modu"** ile yüklenir:
 
-    Google Chrome'u açın ve adres çubuğuna şunu yazın: chrome://extensions/
+1. Bu repoyu bilgisayarınıza indirin (`git clone` veya ZIP olarak).
+2. Google Chrome'u açın ve adres çubuğuna şunu yazın:  chrome://extensions/
+3. Sağ üst köşedeki **Geliştirici Modu (Developer mode)** anahtarını açın.
+4. Sol üstte beliren **Paketlenmemiş öğe yükle (Load unpacked)** butonuna tıklayın.
+5. İndirdiğiniz `MathSolverAI` klasörünü seçin.
+6. Tebrikler! Eklenti yüklendi ve kullanıma hazır. 🎉
 
-    Sağ üst köşedeki Geliştirici Modu (Developer mode) anahtarını açın.
+---
 
-    Sol üstte beliren Paketlenmemiş öğe yükle (Load unpacked) butonuna tıklayın.
+## 🚀 Nasıl Kullanılır?
 
-    İndirdiğiniz MathSolverAI klasörünü seçin.
+### 1. API Anahtarını Alın:
+- [Google AI Studio](https://aistudio.google.com/) adresinden ücretsiz bir **Gemini API anahtarı** alın.
 
-    Tebrikler! Eklenti yüklendi ve kullanıma hazır. 🎉
+### 2. Anahtarı Kaydedin:
+- Herhangi bir web sayfasını açın.
+- Sağ taraftaki **MathSolver** çubuğunda bulunan 🔑 (**Anahtar**) ikonuna tıklayın.
+- Anahtarınızı yapıştırın ve kaydedin. *(Bir kez yapmanız yeterlidir.)*
 
-🚀 Nasıl Kullanılır?
+### 3. Soruyu Kopyalayın:
+- **Windows:** `Win + Shift + S` ile soruyu seçin.  
+- **Mac:** `Cmd + Ctrl + Shift + 4` ile soruyu seçin.
 
-    API Anahtarını Alın:
+### 4. Çözün:
+- Web sayfasına geri dönün ve `CTRL + V` (`Cmd + V` Mac'te) ile yapıştırın.
+- Açılan pencerede **"🚀 Çözümü Başlat"** butonuna tıklayın.
 
-        Google AI Studio adresinden ücretsiz bir Gemini API anahtarı alın.
-
-    Anahtarı Kaydedin:
-
-        Herhangi bir web sayfasını açın.
-
-        Sağ taraftaki MathSolver çubuğunda bulunan 🔑 (Anahtar) ikonuna tıklayın.
-
-        Anahtarınızı yapıştırın ve kaydedin (Bir kez yapmanız yeterlidir).
-
-    Soruyu Kopyalayın:
-
-        Windows: Win + Shift + S ile soruyu seçin.
-
-        Mac: Cmd + Ctrl + Shift + 4 ile soruyu seçin.
-
-    Çözün:
-
-        Web sayfasına geri dönün ve CTRL + V (Yapıştır) yapın.
-
-        Açılan pencerede "🚀 Çözümü Başlat" butonuna tıklayın.
