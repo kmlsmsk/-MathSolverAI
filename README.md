@@ -22,17 +22,7 @@
 - **🚀 Gemini 3.0 Flash Desteği:** Google'ın en güncel ve hızlı modelleriyle çalışır.
 - **🔒 Güvenli:** API anahtarınız sadece tarayıcınızın yerel hafızasında (Chrome Local Storage) saklanır.
 
-## 📂 Dosya Yapısı
-
-```text
-MathSolverAI/
-├── manifest.json   # Chrome Uzantı yapılandırması (Manifest V3)
-├── content.js      # Ana mantık, UI oluşturma ve API iletişimi
-├── styles.css      # Modern stil dosyası (Glassmorphism, Animations)
-├── icon.png        # Uygulama ikonu
-└── README.md       # Proje dokümantasyonu
-
-## 🛠️ Kurulum
+- ## 🛠️ Kurulum
 
 Bu eklenti açık kaynaklıdır ve **"Geliştirici Modu"** ile yüklenir:
 
@@ -62,4 +52,17 @@ Bu eklenti açık kaynaklıdır ve **"Geliştirici Modu"** ile yüklenir:
 ### 4. Çözün:
 - Web sayfasına geri dönün ve `CTRL + V` (`Cmd + V` Mac'te) ile yapıştırın.
 - Açılan pencerede **"🚀 Çözümü Başlat"** butonuna tıklayın.
+- 
+
+## 📂 Dosya Yapısı
+
+```text
+MathSolverAI/
+├── manifest.json   # Chrome Uzantı yapılandırması (Manifest V3)
+├── content.js      # Ana mantık, UI oluşturma ve API iletişimi
+├── styles.css      # Modern stil dosyası (Glassmorphism, Animations)
+├── icon.png        # Uygulama ikonu
+└── README.md       # Proje dokümantasyonu
+
+
 
